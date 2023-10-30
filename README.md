@@ -1,53 +1,90 @@
-# Ajax2
-JSP (JavaServer Pages) est une technologie de développement web Java qui permet d'incorporer du code Java directement dans des pages HTML pour créer des pages web dynamiques.
-# A propos 
-Ce projet vise à créer une application web de gestion de machines et de marques associées. Il utilise Java et JSP pour offrir une interface utilisateur conviviale pour effectuer les opérations suivantes :
+# # Student, Machine Brands, and Machines Management Web Application
 
-Ajouter une machine avec des informations telles que la référence, le prix, la marque et la date d'achat.
+## Screenshots
+<img width="960" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/368fd751-b037-4db6-9753-1401e8ed88cf">
 
-Supprimer une machine existante.
+exemple de modification:
+<img width="960" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/5abfbcc4-28a0-4aac-8fd5-5f610fc1f200">
 
-Modifier les détails d'une machine.
+exemple de suppression
+<img width="960" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/f8d699d1-6419-40be-992a-d096995fef61">
 
-Afficher la liste des machines disponibles.
+<img width="960" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/3bff630b-d648-44ae-8ec2-1ade3524c544">
 
-# scren shot
-# INTERFACE ETUDIANT
-# list des etudiants
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/42e0ffa9-64db-4aac-ba67-a549c49a46ff)
-# supprimer un etudiant
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/b04a60ad-0b3a-4d97-8a20-1e5ada68731e)
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/605fdfee-c115-4087-86e5-6433240f374c)
+<img width="960" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/2f81e129-d86b-4575-9314-197db0efcf51">
 
-# INTERFACE MARQUE 
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/e1f99370-c996-4922-a06c-5bf2ae3043b1)
-# Supprimer une marque 
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/3e5d1beb-920d-4f5d-8787-32929e204c00)
+<img width="960" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/091001d1-68be-4785-b1bb-7934baddb7b7">
 
-# filter machine by marque
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/055ec9d1-aea7-4231-8f51-5155a74e36f2)
-# filtre machine by reference 
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/ff64a56b-0b1b-485a-be15-91689c5e88ce)
+<img width="960" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/14d68968-0f8b-4649-917b-f7ed02bacdce">
 
-# Technologie utilise :
-Java/
-JSP (JavaServer Pages)/
-Hibernate/
-MySQL (Database)/
-HTML/
-CSS/
-JavaScript/
-jQuery/
-AJAX/
-GlassFish (Application Server)
+<img width="921" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/62bb87d0-0702-4c23-beb9-87eb9a527324">
+
+<img width="918" alt="image" src="https://github.com/MaskedFezz/tpAjax/assets/130797834/61377918-3ace-4842-a5a9-56cfecc2467c">
 
 
+## Project Description
+This web application is designed for the management of students, machine brands, and individual machines. It provides a web-based CRUD (Create, Read, Update, Delete) interface for students and machine brands. Users can also filter machines by brand or reference. Additionally, the application offers visualizations in the form of bar graphs and pie charts to display the distribution of machines across brands.
 
+## Key Learning Objective
+The primary objective of this project is to learn how to use AJAX (Asynchronous JavaScript and XML) to enhance the user experience, as it is applied in the filtering features.
 
+## Technologies Used
+- Java
+- JSP (JavaServer Pages)
+- Hibernate
+- MySQL (Database)
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- AJAX
+- GlassFish (Application Server)
 
+## Key Features
+1. CRUD operations for students.
+2. CRUD operations for machine brands.
+3. CRUD operations for individual machines.
+4. Filtering of machines by brand or reference.
+5. Graphical representation of machine distribution by brand (bar graphs and pie charts).
 
+## Project Structure
+The project is organized into several packages and directories:
+- `ma.schools.config`: Contains the `hibernate.cfg.xml` configuration file for Hibernate.
+- `ma.school.util`: Includes `HibernateUtil` class for managing the Hibernate SessionFactory.
+- `ma.school.service`: Houses classes that implement data access operations (DAO).
+- `ma.school.dao`: Defines the `IDao` interface for CRUD operations.
+- `ma.school.beans`: Contains entity classes for students, machine brands, and machines.
+- `ma.school.controller`: Servlets for handling web requests.
 
+### Web Pages
+- `etudiantForm.jsp`: Student management interface.
+- `machineForm.jsp`: Machine management interface.
+- `marqueForm.jsp`: Machine brand management interface.
+- `machineByMarqueForm.jsp`: Machine filtering by brand.
+- `machineByReferenceForm.jsp`: Machine filtering by reference.
+- `graphe.jsp`: Graphical visualization page.
+- `menu.jsp`, `footer.jsp`, `header.jsp`: Common page components.
 
+### JavaScript Scripts
+- `machineByMarque.js`: JavaScript for machine filtering by brand.
+- `machineByReference.js`: JavaScript for machine filtering by reference.
 
+### CSS
+- `css.css`: Stylesheet for web pages.
 
+## System Requirements
+- Java 8 or higher
+- MySQL Server
+- GlassFish Application Server
 
+## How to Run the Project
+1. Clone the project to your local machine.
+2. Configure the `hibernate.cfg.xml` to connect to your database.
+3. Run the project on a GlassFish server.
+4. Access the application by opening the provided link in your web browser.
+
+## Authors
+- Mohamed Fezzazi
+- Professor Mohamed Lachgar
+
+For questions or contributions, please contact Mohamed Fezzazi at fezzazimohamed22@gmail.com.
