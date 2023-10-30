@@ -14,7 +14,9 @@ Afficher la liste des machines disponibles.
 
 # screen 
 # gestion etudiant
-![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/ce37f273-afc8-4881-9161-4fc2eb744332)
+![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/6a4a26b1-d238-4639-9fc6-0dce6a439e97)
+# modification etudiant 
+![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/bdb5bace-6c78-4116-975a-e629ba41b51d)
 # suprimer un etudiant 
 ![supprimer un etudiant](https://github.com/simo-laaouibi/Ajax2/assets/148088062/f9723b23-3196-40c8-a133-fab3eee0c1ab)
 ![liste etudiant apres la supression](https://github.com/simo-laaouibi/Ajax2/assets/148088062/7a863c49-8dfb-423b-9ca9-f44d50112a75)
@@ -22,8 +24,10 @@ Afficher la liste des machines disponibles.
 ![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/7948954d-706f-4a38-b43e-24ae236315cc)
 ![supprimer une marque](https://github.com/simo-laaouibi/Ajax2/assets/148088062/917f7e59-078e-4b3b-8b0a-85faac0cc40f)
 # Machine by Marque 
-![machine by marque ](https://github.com/simo-laaouibi/Ajax2/assets/148088062/5a56cc50-3c4b-42fc-bfb3-2938dca0b4bb)
+![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/40cc9784-f728-42f3-a2ba-5405ccdc0089)
+![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/39bd39da-e744-4b6f-969c-3a06da701b82)
 # Machine by reference 
+![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/a8ad1737-5371-4233-9138-c8e8d3452abc)
 ![machine by reference 2](https://github.com/simo-laaouibi/Ajax2/assets/148088062/d59a40e5-b509-4d18-91be-d110ecfe294d)
 # graphe 
 ![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/2cfb7bcb-3bfb-451b-aea1-292a381c08c8)
