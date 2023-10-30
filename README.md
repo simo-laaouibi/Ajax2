@@ -4,8 +4,11 @@ JSP (JavaServer Pages) est une technologie de développement web Java qui permet
 Ce projet vise à créer une application web de gestion de machines et de marques associées. Il utilise Java et JSP pour offrir une interface utilisateur conviviale pour effectuer les opérations suivantes :
 
 Ajouter une machine avec des informations telles que la référence, le prix, la marque et la date d'achat.
+
 Supprimer une machine existante.
+
 Modifier les détails d'une machine.
+
 Afficher la liste des machines disponibles.
 
 # scren shot
@@ -25,6 +28,18 @@ Afficher la liste des machines disponibles.
 ![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/055ec9d1-aea7-4231-8f51-5155a74e36f2)
 # filtre machine by reference 
 ![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/ff64a56b-0b1b-485a-be15-91689c5e88ce)
+
+# Technologie utilise :
+Java/
+JSP (JavaServer Pages)/
+Hibernate/
+MySQL (Database)/
+HTML/
+CSS/
+JavaScript/
+jQuery/
+AJAX/
+GlassFish (Application Server)
 
 
 
