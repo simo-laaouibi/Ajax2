@@ -25,6 +25,9 @@ Afficher la liste des machines disponibles.
 ![machine by marque ](https://github.com/simo-laaouibi/Ajax2/assets/148088062/5a56cc50-3c4b-42fc-bfb3-2938dca0b4bb)
 # Machine by reference 
 ![machine by reference 2](https://github.com/simo-laaouibi/Ajax2/assets/148088062/d59a40e5-b509-4d18-91be-d110ecfe294d)
+# graphe 
+![image](https://github.com/simo-laaouibi/Ajax2/assets/148088062/2cfb7bcb-3bfb-451b-aea1-292a381c08c8)
+
 
 
 
